@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="icons" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="icons.css">
+    <title>Gallery</title>
+</head>
+<body>
+    <div class="pics">
+            <img src="image1.jpg" alt="Image 1" onclick="change(this)">     
+            <img src="image2.jpg" alt="Image 2" onclick="change(this)">
+            <img src="image3.jpg" alt="Image 3" onclick="change(this)">
+            <img src="image1.jpg" alt="Image 1" onclick="change(this)">     
+            <img src="image2.jpg" alt="Image 2" onclick="change(this)">
+            <img src="image3.jpg" alt="Image 3" onclick="change(this)">
+    </div>
+    <script>
+        function change(element)
+        {
+            element.classList.toggle("fullsize");
+        }
+    </script>
+</body>
+</html>
