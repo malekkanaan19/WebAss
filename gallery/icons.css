@@ -1,0 +1,32 @@
+.pics {
+    text-align: center; 
+}
+
+
+.pics img 
+{
+    width: 400px; 
+    height: 400px; 
+    margin-right: 10px; 
+    display: inline-block;
+    transition: transform 0.3s ease;
+    padding: 8.px;
+
+}
+.pics input:focus {
+    position: absolute;
+    text-align: center;
+    transform: scale(2);
+}
+.fullsize {
+    z-index: 999;
+    cursor: zoom-out;
+    display: block;
+    width: 800px;
+    max-width: 100%; 
+    position: fixed;
+    left: 50%; 
+    top: 50%; 
+    transform: translate(-50%, -50%); 
+    border: 11px solid green;
+}
